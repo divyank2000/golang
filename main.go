@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/divyank2000/golang.git/httprouter"
-	"gopkg.in/mgo.v2"
+	"github.com/mongodb/mongo-go-driver"
 
 	"github.com/divyank2000/golang.git/controllers"
 )
