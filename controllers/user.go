@@ -7,8 +7,7 @@ import (
 
 	"github.com/divyank2000/golang.git/httprouter"
 	"github.com/divyank2000/golang.git/models"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/mongodb/mongo-go-driver"
 )
 
 type UserController struct {
